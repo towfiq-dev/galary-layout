@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+  .container{
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  }
+  .big-layout,
+  .normal-layout,
+  .small-layout,
+  .wide-layout{
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+}
